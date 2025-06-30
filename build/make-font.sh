@@ -5,7 +5,7 @@
 
 # download latest Twemoji font
 TTF=$(mktemp -t XXXXXXXXXX.ttf)
-curl --location https://github.com/mozilla/twemoji-colr/releases/latest/download/Twemoji.Mozilla.ttf --output $TTF
+curl --location https://github.com/beyondkmp/twemoji-colr/raw/refs/heads/matthew/sbix/font/Twemoji.Mozilla.ttf --output $TTF
 
 # Ensure that the output directory exists
 mkdir -p ../dist
